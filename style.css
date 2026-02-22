@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+main {
+    flex: 1; 
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+
+/* fix later */
+/* .hero {
+    background: url('../pic/muaythainewpic.jpg') center/cover no-repeat;
+    height: 60vh;
+} */
+
+.hero h1 {
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
